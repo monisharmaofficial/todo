@@ -1,0 +1,122 @@
+/* Main container */
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0f7fa;
+    padding: 20px;
+  }
+  
+  /* Child container */
+  .child-div {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .child-div h2 {
+    font-size: 26px;
+    color: #00796b;
+    margin-bottom: 20px;
+  }
+  
+  /* Add Items - Input and button on the same line */
+  .add-Items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-Items input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #b2dfdb;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    margin-right: 10px;
+  }
+  
+  .add-Items input[type="text"]:focus {
+    border-color: #00796b;
+  }
+  
+  .btn {
+    padding: 12px 20px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #004d40;
+  }
+  
+  /* Show Items - Styling the list */
+  .showItems {
+    margin-top: 20px;
+  }
+  
+  .items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: #f0f4c3;
+    border: 1px solid #c8e6c9;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+  
+  .items li:hover {
+    background-color: #dcedc8;
+  }
+  
+  .items span {
+    cursor: pointer;
+    color: #ff5252;
+    font-size: 20px;
+  }
+  
+  .items span:hover {
+    color: #d32f2f;
+  }
+  
+  .add-btn {
+    transition: color 0.3s ease;
+  }
+  
+  /* Clear All button */
+  .clear-btn {
+    padding: 12px 20px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .clear-btn:hover {
+    background-color: #b71c1c;
+  }
+  
